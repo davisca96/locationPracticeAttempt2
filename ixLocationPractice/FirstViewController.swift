@@ -8,8 +8,14 @@
 
 import UIKit
 
+//needed for Apple Map Kit Usage
+import MapKit
+
+
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var AppleMapView: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
