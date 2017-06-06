@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A9D40BD5613D2D3637200E4 /* Pods_ixLocationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04D989800AF89F5B51ACC73 /* Pods_ixLocationPractice.framework */; };
 		E24ABDD01EE54245000B2597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ABDCF1EE54245000B2597 /* AppDelegate.swift */; };
 		E24ABDD21EE54245000B2597 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ABDD11EE54245000B2597 /* FirstViewController.swift */; };
 		E24ABDD41EE54245000B2597 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ABDD31EE54245000B2597 /* SecondViewController.swift */; };
 		E24ABDD71EE54245000B2597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24ABDD51EE54245000B2597 /* Main.storyboard */; };
 		E24ABDD91EE54245000B2597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24ABDD81EE54245000B2597 /* Assets.xcassets */; };
 		E24ABDDC1EE54245000B2597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24ABDDA1EE54245000B2597 /* LaunchScreen.storyboard */; };
+		E2738DEA1EE5852A001F3E2E /* AddActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2738DE91EE5852A001F3E2E /* AddActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3394B14CEFE71AFBA3D0AEDE /* Pods-ixLocationPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixLocationPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-ixLocationPractice/Pods-ixLocationPractice.release.xcconfig"; sourceTree = "<group>"; };
+		E04D989800AF89F5B51ACC73 /* Pods_ixLocationPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ixLocationPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24ABDCC1EE54245000B2597 /* ixLocationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ixLocationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24ABDCF1EE54245000B2597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24ABDD11EE54245000B2597 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		E24ABDD81EE54245000B2597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24ABDDB1EE54245000B2597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24ABDDD1EE54245000B2597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2738DE91EE5852A001F3E2E /* AddActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivityViewController.swift; sourceTree = "<group>"; };
+		F6745B762575DFB8E0F6248B /* Pods-ixLocationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixLocationPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ixLocationPractice/Pods-ixLocationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9D40BD5613D2D3637200E4 /* Pods_ixLocationPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04CC37BF33E48563E66FFAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04D989800AF89F5B51ACC73 /* Pods_ixLocationPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B3E2C8A03164DD957B79CD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6745B762575DFB8E0F6248B /* Pods-ixLocationPractice.debug.xcconfig */,
+				3394B14CEFE71AFBA3D0AEDE /* Pods-ixLocationPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E24ABDC31EE54245000B2597 = {
 			isa = PBXGroup;
 			children = (
 				E24ABDCE1EE54245000B2597 /* ixLocationPractice */,
 				E24ABDCD1EE54245000B2597 /* Products */,
+				3B3E2C8A03164DD957B79CD2 /* Pods */,
+				04CC37BF33E48563E66FFAF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				E24ABDD11EE54245000B2597 /* FirstViewController.swift */,
 				E24ABDD31EE54245000B2597 /* SecondViewController.swift */,
 				E24ABDD51EE54245000B2597 /* Main.storyboard */,
+				E2738DE91EE5852A001F3E2E /* AddActivityViewController.swift */,
 				E24ABDD81EE54245000B2597 /* Assets.xcassets */,
 				E24ABDDA1EE54245000B2597 /* LaunchScreen.storyboard */,
 				E24ABDDD1EE54245000B2597 /* Info.plist */,
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E24ABDE01EE54245000B2597 /* Build configuration list for PBXNativeTarget "ixLocationPractice" */;
 			buildPhases = (
+				03B5F331E85A71A3F5E4043B /* [CP] Check Pods Manifest.lock */,
 				E24ABDC81EE54245000B2597 /* Sources */,
 				E24ABDC91EE54245000B2597 /* Frameworks */,
 				E24ABDCA1EE54245000B2597 /* Resources */,
+				9DCA1B5BA5DA408A01354720 /* [CP] Embed Pods Frameworks */,
+				8A7307C01A47360D6C08F211 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B5F331E85A71A3F5E4043B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7307C01A47360D6C08F211 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ixLocationPractice/Pods-ixLocationPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCA1B5BA5DA408A01354720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ixLocationPractice/Pods-ixLocationPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E24ABDC81EE54245000B2597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +220,7 @@
 				E24ABDD41EE54245000B2597 /* SecondViewController.swift in Sources */,
 				E24ABDD01EE54245000B2597 /* AppDelegate.swift in Sources */,
 				E24ABDD21EE54245000B2597 /* FirstViewController.swift in Sources */,
+				E2738DEA1EE5852A001F3E2E /* AddActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +343,7 @@
 		};
 		E24ABDE11EE54245000B2597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6745B762575DFB8E0F6248B /* Pods-ixLocationPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ixLocationPractice/Info.plist;
@@ -276,6 +356,7 @@
 		};
 		E24ABDE21EE54245000B2597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3394B14CEFE71AFBA3D0AEDE /* Pods-ixLocationPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ixLocationPractice/Info.plist;
@@ -305,6 +386,7 @@
 				E24ABDE21EE54245000B2597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
